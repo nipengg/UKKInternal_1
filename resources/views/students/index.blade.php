@@ -13,7 +13,7 @@
                                 <h3 class="panel-title">Data Student</h3>
                             </div>
                             <div class="pull-right">
-                                <a class="btn btn-success" href="{{url('students/cetak_pdf')}}">Export PDF</a>
+                                <a class="btn btn-success" target="_blank" href="{{url('students/cetak_pdf')}}">Export PDF</a>
                             </div>
                         </div>
                         <br>
@@ -50,6 +50,7 @@
                                     <td>
                                         <a class="btn btn-primary" href="{{url('students/edit/'.$student->no_reg)}}">Edit</a>  
                                         <button type="button" class="btn btn-danger btn-secondary" data-toggle="modal" data-target="#myModal">Delete</button>
+                                        <a class="btn btn-success" target="_blank" href="{{url('students/cetak_pdf_student/'.$student->no_reg)}}">Export PDF</a>
                                         {{-- <a class="btn btn-danger" href="{{url('students/delete/'.$student->no_reg)}}">Delete</a> --}}
                                     </td>
                                 </tr>

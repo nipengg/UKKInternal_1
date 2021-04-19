@@ -66,4 +66,12 @@ class StudentController extends Controller
     	$pdf = PDF::loadview('student_pdf',['students'=>$students]);
     	return $pdf->stream();
     }
+
+    public function cetak_pdf_student($no_reg)
+    {
+    	$students = Student::findOrFail($no_reg);
+ 
+    	$pdf = PDF::loadview('student_pdf_id',['students'=>$students]);
+    	return $pdf->stream();
+    }
 }
