@@ -27,13 +27,13 @@
                             <table id="table_id" class="table table-bordered">
                                 <thead>
                                 <tr>
-                                    <th>Nis</th>
+                                    <th>No Reg</th>
                                     <th>Name</th>
                                     <th>JK</th>
                                     <th>Alamat</th>
                                     <th>Agama</th>
                                     <th>Asal Sekolah</th>
-                                    <th>Jurusan</th>
+                                    <th>Minat Jurusan</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
